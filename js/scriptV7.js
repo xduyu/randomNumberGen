@@ -52,7 +52,7 @@ function startGame() {
 
 btnGuess.addEventListener('click', () => {
     let userGuess = +inputData.value;
-    // console.log(typeof userGuess.value)
+    console.log(typeof userGuess.value)
 
     if (!userGuess) {
         gameRes.textContent = "Введите число"
